@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD6FD4A26DE8AF200A3017A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD4926DE8AF200A3017A /* AppDelegate.swift */; };
+		BCD6FD4C26DE8AF200A3017A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD4B26DE8AF200A3017A /* SceneDelegate.swift */; };
+		BCD6FD4E26DE8AF200A3017A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD4D26DE8AF200A3017A /* ViewController.swift */; };
+		BCD6FD5126DE8AF200A3017A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD6FD4F26DE8AF200A3017A /* Main.storyboard */; };
+		BCD6FD5326DE8AF300A3017A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD6FD5226DE8AF300A3017A /* Assets.xcassets */; };
+		BCD6FD5626DE8AF300A3017A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD6FD5426DE8AF300A3017A /* LaunchScreen.storyboard */; };
+		BCD6FD6126DE8AF300A3017A /* DiscographySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD6026DE8AF300A3017A /* DiscographySearchTests.swift */; };
+		BCD6FD6C26DE8AF300A3017A /* DiscographySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD6B26DE8AF300A3017A /* DiscographySearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD6FD5D26DE8AF300A3017A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD6FD3E26DE8AF200A3017A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD6FD4526DE8AF200A3017A;
+			remoteInfo = DiscographySearch;
+		};
+		BCD6FD6826DE8AF300A3017A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD6FD3E26DE8AF200A3017A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD6FD4526DE8AF200A3017A;
+			remoteInfo = DiscographySearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCD6FD4626DE8AF200A3017A /* DiscographySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscographySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD6FD4926DE8AF200A3017A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCD6FD4B26DE8AF200A3017A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCD6FD4D26DE8AF200A3017A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCD6FD5026DE8AF200A3017A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD6FD5226DE8AF300A3017A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD6FD5526DE8AF300A3017A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCD6FD5726DE8AF300A3017A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD6FD5C26DE8AF300A3017A /* DiscographySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscographySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD6FD6026DE8AF300A3017A /* DiscographySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographySearchTests.swift; sourceTree = "<group>"; };
+		BCD6FD6226DE8AF300A3017A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD6FD6726DE8AF300A3017A /* DiscographySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscographySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD6FD6B26DE8AF300A3017A /* DiscographySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographySearchUITests.swift; sourceTree = "<group>"; };
+		BCD6FD6D26DE8AF300A3017A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD6FD4326DE8AF200A3017A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD6FD5926DE8AF300A3017A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD6FD6426DE8AF300A3017A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD6FD3D26DE8AF200A3017A = {
+			isa = PBXGroup;
+			children = (
+				BCD6FD4826DE8AF200A3017A /* DiscographySearch */,
+				BCD6FD5F26DE8AF300A3017A /* DiscographySearchTests */,
+				BCD6FD6A26DE8AF300A3017A /* DiscographySearchUITests */,
+				BCD6FD4726DE8AF200A3017A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD6FD4726DE8AF200A3017A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6FD4626DE8AF200A3017A /* DiscographySearch.app */,
+				BCD6FD5C26DE8AF300A3017A /* DiscographySearchTests.xctest */,
+				BCD6FD6726DE8AF300A3017A /* DiscographySearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD6FD4826DE8AF200A3017A /* DiscographySearch */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6FD4926DE8AF200A3017A /* AppDelegate.swift */,
+				BCD6FD4B26DE8AF200A3017A /* SceneDelegate.swift */,
+				BCD6FD4D26DE8AF200A3017A /* ViewController.swift */,
+				BCD6FD4F26DE8AF200A3017A /* Main.storyboard */,
+				BCD6FD5226DE8AF300A3017A /* Assets.xcassets */,
+				BCD6FD5426DE8AF300A3017A /* LaunchScreen.storyboard */,
+				BCD6FD5726DE8AF300A3017A /* Info.plist */,
+			);
+			path = DiscographySearch;
+			sourceTree = "<group>";
+		};
+		BCD6FD5F26DE8AF300A3017A /* DiscographySearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6FD6026DE8AF300A3017A /* DiscographySearchTests.swift */,
+				BCD6FD6226DE8AF300A3017A /* Info.plist */,
+			);
+			path = DiscographySearchTests;
+			sourceTree = "<group>";
+		};
+		BCD6FD6A26DE8AF300A3017A /* DiscographySearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6FD6B26DE8AF300A3017A /* DiscographySearchUITests.swift */,
+				BCD6FD6D26DE8AF300A3017A /* Info.plist */,
+			);
+			path = DiscographySearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD6FD4526DE8AF200A3017A /* DiscographySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD6FD7026DE8AF300A3017A /* Build configuration list for PBXNativeTarget "DiscographySearch" */;
+			buildPhases = (
+				BCD6FD4226DE8AF200A3017A /* Sources */,
+				BCD6FD4326DE8AF200A3017A /* Frameworks */,
+				BCD6FD4426DE8AF200A3017A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscographySearch;
+			productName = DiscographySearch;
+			productReference = BCD6FD4626DE8AF200A3017A /* DiscographySearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD6FD5B26DE8AF300A3017A /* DiscographySearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD6FD7326DE8AF300A3017A /* Build configuration list for PBXNativeTarget "DiscographySearchTests" */;
+			buildPhases = (
+				BCD6FD5826DE8AF300A3017A /* Sources */,
+				BCD6FD5926DE8AF300A3017A /* Frameworks */,
+				BCD6FD5A26DE8AF300A3017A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD6FD5E26DE8AF300A3017A /* PBXTargetDependency */,
+			);
+			name = DiscographySearchTests;
+			productName = DiscographySearchTests;
+			productReference = BCD6FD5C26DE8AF300A3017A /* DiscographySearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD6FD6626DE8AF300A3017A /* DiscographySearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD6FD7626DE8AF300A3017A /* Build configuration list for PBXNativeTarget "DiscographySearchUITests" */;
+			buildPhases = (
+				BCD6FD6326DE8AF300A3017A /* Sources */,
+				BCD6FD6426DE8AF300A3017A /* Frameworks */,
+				BCD6FD6526DE8AF300A3017A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD6FD6926DE8AF300A3017A /* PBXTargetDependency */,
+			);
+			name = DiscographySearchUITests;
+			productName = DiscographySearchUITests;
+			productReference = BCD6FD6726DE8AF300A3017A /* DiscographySearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD6FD3E26DE8AF200A3017A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BCD6FD4526DE8AF200A3017A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					BCD6FD5B26DE8AF300A3017A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BCD6FD4526DE8AF200A3017A;
+					};
+					BCD6FD6626DE8AF300A3017A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BCD6FD4526DE8AF200A3017A;
+					};
+				};
+			};
+			buildConfigurationList = BCD6FD4126DE8AF200A3017A /* Build configuration list for PBXProject "DiscographySearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD6FD3D26DE8AF200A3017A;
+			productRefGroup = BCD6FD4726DE8AF200A3017A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD6FD4526DE8AF200A3017A /* DiscographySearch */,
+				BCD6FD5B26DE8AF300A3017A /* DiscographySearchTests */,
+				BCD6FD6626DE8AF300A3017A /* DiscographySearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD6FD4426DE8AF200A3017A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD6FD5626DE8AF300A3017A /* LaunchScreen.storyboard in Resources */,
+				BCD6FD5326DE8AF300A3017A /* Assets.xcassets in Resources */,
+				BCD6FD5126DE8AF200A3017A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD6FD5A26DE8AF300A3017A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD6FD6526DE8AF300A3017A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD6FD4226DE8AF200A3017A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD6FD4E26DE8AF200A3017A /* ViewController.swift in Sources */,
+				BCD6FD4A26DE8AF200A3017A /* AppDelegate.swift in Sources */,
+				BCD6FD4C26DE8AF200A3017A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD6FD5826DE8AF300A3017A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD6FD6126DE8AF300A3017A /* DiscographySearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD6FD6326DE8AF300A3017A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD6FD6C26DE8AF300A3017A /* DiscographySearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD6FD5E26DE8AF300A3017A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD6FD4526DE8AF200A3017A /* DiscographySearch */;
+			targetProxy = BCD6FD5D26DE8AF300A3017A /* PBXContainerItemProxy */;
+		};
+		BCD6FD6926DE8AF300A3017A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD6FD4526DE8AF200A3017A /* DiscographySearch */;
+			targetProxy = BCD6FD6826DE8AF300A3017A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD6FD4F26DE8AF200A3017A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD6FD5026DE8AF200A3017A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD6FD5426DE8AF300A3017A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD6FD5526DE8AF300A3017A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD6FD6E26DE8AF300A3017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD6FD6F26DE8AF300A3017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD6FD7126DE8AF300A3017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscographySearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sul.DiscographySearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD6FD7226DE8AF300A3017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscographySearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sul.DiscographySearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCD6FD7426DE8AF300A3017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscographySearchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sul.DiscographySearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscographySearch.app/DiscographySearch";
+			};
+			name = Debug;
+		};
+		BCD6FD7526DE8AF300A3017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscographySearchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sul.DiscographySearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscographySearch.app/DiscographySearch";
+			};
+			name = Release;
+		};
+		BCD6FD7726DE8AF300A3017A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscographySearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sul.DiscographySearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiscographySearch;
+			};
+			name = Debug;
+		};
+		BCD6FD7826DE8AF300A3017A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscographySearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sul.DiscographySearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiscographySearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD6FD4126DE8AF200A3017A /* Build configuration list for PBXProject "DiscographySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD6FD6E26DE8AF300A3017A /* Debug */,
+				BCD6FD6F26DE8AF300A3017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD6FD7026DE8AF300A3017A /* Build configuration list for PBXNativeTarget "DiscographySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD6FD7126DE8AF300A3017A /* Debug */,
+				BCD6FD7226DE8AF300A3017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD6FD7326DE8AF300A3017A /* Build configuration list for PBXNativeTarget "DiscographySearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD6FD7426DE8AF300A3017A /* Debug */,
+				BCD6FD7526DE8AF300A3017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD6FD7626DE8AF300A3017A /* Build configuration list for PBXNativeTarget "DiscographySearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD6FD7726DE8AF300A3017A /* Debug */,
+				BCD6FD7826DE8AF300A3017A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD6FD3E26DE8AF200A3017A /* Project object */;
+}
