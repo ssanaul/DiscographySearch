@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		BCD6FD4A26DE8AF200A3017A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD4926DE8AF200A3017A /* AppDelegate.swift */; };
 		BCD6FD4C26DE8AF200A3017A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD4B26DE8AF200A3017A /* SceneDelegate.swift */; };
-		BCD6FD4E26DE8AF200A3017A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD4D26DE8AF200A3017A /* ViewController.swift */; };
+		BCD6FD4E26DE8AF200A3017A /* DiscographyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD4D26DE8AF200A3017A /* DiscographyViewController.swift */; };
 		BCD6FD5126DE8AF200A3017A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD6FD4F26DE8AF200A3017A /* Main.storyboard */; };
 		BCD6FD5326DE8AF300A3017A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD6FD5226DE8AF300A3017A /* Assets.xcassets */; };
 		BCD6FD5626DE8AF300A3017A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD6FD5426DE8AF300A3017A /* LaunchScreen.storyboard */; };
 		BCD6FD6126DE8AF300A3017A /* DiscographySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD6026DE8AF300A3017A /* DiscographySearchTests.swift */; };
 		BCD6FD6C26DE8AF300A3017A /* DiscographySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD6B26DE8AF300A3017A /* DiscographySearchUITests.swift */; };
+		BCD6FD7A26DE912F00A3017A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD7926DE912F00A3017A /* APIManager.swift */; };
+		BCD6FD7C26DE919100A3017A /* DiscographyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD7B26DE919100A3017A /* DiscographyViewModel.swift */; };
+		BCD6FD7E26DE91DC00A3017A /* Discography.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD7D26DE91DC00A3017A /* Discography.swift */; };
+		BCD6FD8026DE91E500A3017A /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD7F26DE91E500A3017A /* Track.swift */; };
+		BCD6FD8226DEACF200A3017A /* DiscographyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6FD8126DEACF200A3017A /* DiscographyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 		BCD6FD4626DE8AF200A3017A /* DiscographySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscographySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD6FD4926DE8AF200A3017A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCD6FD4B26DE8AF200A3017A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCD6FD4D26DE8AF200A3017A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCD6FD4D26DE8AF200A3017A /* DiscographyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographyViewController.swift; sourceTree = "<group>"; };
 		BCD6FD5026DE8AF200A3017A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCD6FD5226DE8AF300A3017A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCD6FD5526DE8AF300A3017A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		BCD6FD6726DE8AF300A3017A /* DiscographySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscographySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD6FD6B26DE8AF300A3017A /* DiscographySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographySearchUITests.swift; sourceTree = "<group>"; };
 		BCD6FD6D26DE8AF300A3017A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD6FD7926DE912F00A3017A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BCD6FD7B26DE919100A3017A /* DiscographyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographyViewModel.swift; sourceTree = "<group>"; };
+		BCD6FD7D26DE91DC00A3017A /* Discography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discography.swift; sourceTree = "<group>"; };
+		BCD6FD7F26DE91E500A3017A /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		BCD6FD8126DEACF200A3017A /* DiscographyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscographyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				BCD6FD4926DE8AF200A3017A /* AppDelegate.swift */,
 				BCD6FD4B26DE8AF200A3017A /* SceneDelegate.swift */,
-				BCD6FD4D26DE8AF200A3017A /* ViewController.swift */,
+				BCD6FD4D26DE8AF200A3017A /* DiscographyViewController.swift */,
+				BCD6FD8126DEACF200A3017A /* DiscographyTableViewCell.swift */,
+				BCD6FD7B26DE919100A3017A /* DiscographyViewModel.swift */,
+				BCD6FD7D26DE91DC00A3017A /* Discography.swift */,
+				BCD6FD7F26DE91E500A3017A /* Track.swift */,
+				BCD6FD7926DE912F00A3017A /* APIManager.swift */,
 				BCD6FD4F26DE8AF200A3017A /* Main.storyboard */,
 				BCD6FD5226DE8AF300A3017A /* Assets.xcassets */,
 				BCD6FD5426DE8AF300A3017A /* LaunchScreen.storyboard */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCD6FD4E26DE8AF200A3017A /* ViewController.swift in Sources */,
+				BCD6FD7A26DE912F00A3017A /* APIManager.swift in Sources */,
+				BCD6FD8226DEACF200A3017A /* DiscographyTableViewCell.swift in Sources */,
+				BCD6FD4E26DE8AF200A3017A /* DiscographyViewController.swift in Sources */,
 				BCD6FD4A26DE8AF200A3017A /* AppDelegate.swift in Sources */,
+				BCD6FD7C26DE919100A3017A /* DiscographyViewModel.swift in Sources */,
 				BCD6FD4C26DE8AF200A3017A /* SceneDelegate.swift in Sources */,
+				BCD6FD7E26DE91DC00A3017A /* Discography.swift in Sources */,
+				BCD6FD8026DE91E500A3017A /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
