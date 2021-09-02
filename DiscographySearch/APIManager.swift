@@ -21,7 +21,7 @@ class APIManager {
                 if data != nil && err == nil {
                     let decoder = JSONDecoder.init()
                     decoder.keyDecodingStrategy = .convertFromSnakeCase
-                    let model = try! decoder.decode(type, from: data!)
+                    let model = try? decoder.decode(type, from: data!)
                     completionHandler?(model, err)
                 } else {
                     completionHandler?(nil, err)

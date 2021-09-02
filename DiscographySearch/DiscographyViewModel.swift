@@ -15,7 +15,7 @@ class DiscographyViewModel {
     
     func get<T>(url: URL, type: T.Type, completionHandler: CompletionHandler) where T: Decodable  {
         apiHandler.get(url: url, type: type) { arr, err in
-            self.tracks = (arr as? Discography)!.results
+            self.tracks = (arr as? Discography)?.results
             self.err = err
             completionHandler?()
         }
